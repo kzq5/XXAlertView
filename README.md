@@ -30,3 +30,4 @@ config.alertType = type;
 //显示
 [XXAlertView showAlert:title inView:[UIApplication sharedApplication].keyWindow withConfig:[XXAlertViewConfig defaultConfig]];
 ```
+参考这个[JMNotifyView](https://github.com/JunAILiang/JMNotifyView)，不够用，就自己再写写喽

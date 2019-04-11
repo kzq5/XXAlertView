@@ -28,6 +28,6 @@ config.duration = 2.f;
 config.alertType = type;
 
 //显示
-[XXAlertView showAlert:title inView:[UIApplication sharedApplication].keyWindow withConfig:[XXAlertViewConfig defaultConfig]];
+[XXAlertView showAlert:title inView:[UIApplication sharedApplication].keyWindow withConfig:config];
 ```
 参考这个[JMNotifyView](https://github.com/JunAILiang/JMNotifyView)，不满足我的需求，就自己再写写喽
